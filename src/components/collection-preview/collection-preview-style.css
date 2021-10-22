@@ -1,0 +1,17 @@
+.collection-preview {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;  
+}
+  
+.collection-preview .title {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+.collection-preview .preview {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
