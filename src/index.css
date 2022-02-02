@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 16px 40px;
-  filter: blur(0.5px);
+  /* filter: blur(0.5px); */
 }
 
 a {

@@ -4,6 +4,7 @@ import FormInput from '../form-input/FormInput';
 import CustomButton from '../custom-button/CustomButton';
 
 import { signInWithGoogle } from '../../firebase/FirebaseUtils';
+import { getAuth ,signInWithEmailAndPassword } from 'firebase/auth'
 
 class SignIn extends Component {
     constructor(props) {
@@ -14,8 +15,29 @@ class SignIn extends Component {
         }
     }
 
-    handleSubmit = (event) => {
+    handleSubmit = async (event) => {
         event.preventDefault();
+
+        const {email, password} = this.state;
+
+        try {
+            const auth = getAuth();
+            signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // const user = userCredential.user;
+            })
+            .catch((error) => {
+                const errorMessage = error.message;
+                console.log(errorMessage);
+            });
+
+            this.setState({
+                email: '',
+                password: ''
+            });
+        } catch (error) {
+            console.log(error);
+        }
 
         this.setState({email: '', password: ''});
     }
