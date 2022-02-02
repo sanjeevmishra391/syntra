@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/syntra/static/css/main.78a8231f.chunk.css",
+    "main.js": "/syntra/static/js/main.b276c0f8.chunk.js",
+    "main.js.map": "/syntra/static/js/main.b276c0f8.chunk.js.map",
+    "runtime-main.js": "/syntra/static/js/runtime-main.0d060575.js",
+    "runtime-main.js.map": "/syntra/static/js/runtime-main.0d060575.js.map",
+    "static/js/2.a3cc9bbe.chunk.js": "/syntra/static/js/2.a3cc9bbe.chunk.js",
+    "static/js/2.a3cc9bbe.chunk.js.map": "/syntra/static/js/2.a3cc9bbe.chunk.js.map",
+    "index.html": "/syntra/index.html",
+    "static/css/main.78a8231f.chunk.css.map": "/syntra/static/css/main.78a8231f.chunk.css.map",
+    "static/js/2.a3cc9bbe.chunk.js.LICENSE.txt": "/syntra/static/js/2.a3cc9bbe.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/syntra/static/media/crown.3a4e2b15.svg",
+    "static/media/shopping-bag.cfde1dec.svg": "/syntra/static/media/shopping-bag.cfde1dec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d060575.js",
+    "static/js/2.a3cc9bbe.chunk.js",
+    "static/css/main.78a8231f.chunk.css",
+    "static/js/main.b276c0f8.chunk.js"
+  ]
+}
