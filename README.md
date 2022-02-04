@@ -1,5 +1,5 @@
 # Syntra
-Syntra is an e-commerce website for ordering clothes.
+Syntra is an e-commerce web application for ordering clothes.
 
 ### Tech Stack
 React, Firebase, Redux, React-router-dom@6, Reselect, Mui, Scss.
